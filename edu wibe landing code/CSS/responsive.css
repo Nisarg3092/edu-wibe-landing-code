@@ -1,0 +1,248 @@
+@media only screen and (max-width:800px) {
+
+    .container{
+        width: 100%;
+        max-width: 800px;
+        padding: 0 16px;
+        overflow: hidden;
+    }
+
+    /* head  */
+
+
+
+    .nav{  
+        flex-direction: column;
+        row-gap: 30px;
+        padding-top: 8px;
+    }
+
+    .web-logo{
+        position: absolute;
+        left: 20px;
+    }
+
+    .web-icon{
+        width: 70%;
+    }
+
+
+    .nav-item{
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-per{
+        text-align: center;
+    
+    }
+
+    .nav-hight{
+        height: 50px;
+    }
+
+    .ham-burger{
+        display: block;
+    }
+
+    .nav-visible{
+        opacity: 0;
+    }
+
+    .first-page{
+        flex-direction: column;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .fp-heading-text{
+        font-size: 230%;
+    }
+
+    .fp-pera-text{
+        font-size: 100%;
+    }
+
+    .fp-btns , .footer-btns{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .fp-img img{
+        width: 100%;
+    }
+
+    .hp-imgs{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hp-image{
+        width: 80%;
+    }
+    
+    .course-img{
+        display: flex;
+        justify-content: center;
+    }
+
+    .course-img img{
+        width: 90%;
+    }
+
+    .course-layout-imgs{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fetures-detail{
+        grid-template-columns: repeat(2 ,1fr);
+        column-gap: 10px;
+    }
+
+    .fetures-box{
+        height: 110px;
+        width: 110px;
+    }
+
+    .fetures-box img{
+        width: 60%;
+    }
+
+    .fetures-icon-name{
+        font-size: 80%;
+    }
+
+    .inner-page-img img{
+        height: 333px;   
+        padding-left: 3px;
+        padding-right: 13px;
+    }
+
+    .column{
+        animation-duration: 10s;
+    }
+
+    .functions{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .functions-img img{
+        width:100%;
+    }
+
+    .footer-heading{
+        font-size: 190%;
+        padding: 0 10px;
+    }
+
+    .faq-que{
+        width: 100%;
+        font-size: 80%;
+    }
+
+    .footer{
+        padding: 40px 0 10px 0;
+    }
+
+    .footer-arow{
+        padding-top: 20px
+    }
+
+    .footer-arow img{
+        width: 30px;
+    }
+
+}
+
+/* @media only screen and (max-width:1230px){
+
+    .container{
+        width: 100%;
+        max-width: 1230px;
+        padding: 0 16px;
+        overflow: hidden;
+    }
+
+  
+    .nav{  
+        flex-direction: column;
+        row-gap: 30px;
+        padding-top: 8px;
+    }
+
+    .web-logo{
+        position: absolute;
+        left: 20px;
+    }
+
+    .web-icon{
+        width: 70%;
+    }
+
+    .nav-item{
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-per{
+        text-align: center;
+    }
+
+    .nav-hight{
+        height: 50px;
+    }
+
+    .ham-burger{
+        display: block;
+    }
+
+    .first-page{
+        flex-direction: column;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+
+    .fp-img img{
+        width: 100%;
+    }
+
+    .hp-image{
+        width: 80%;
+    }
+    
+    .course-img img{
+        width: 90%;
+    }
+    .fetures-detail{
+        grid-template-columns: repeat(3 ,1fr);
+        column-gap: 10px;
+    }
+
+    .functions{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+   
+    .footer{
+        padding: 40px 0 10px 0;
+    }
+
+    .footer-arow{
+        padding-top: 20px
+    }
+
+    .footer-arow img{
+        width: 30px;
+    }
+
+} */
